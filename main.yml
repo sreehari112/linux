@@ -1,0 +1,6 @@
+---
+- hosts: linux
+  tasks:
+  - file:
+    location: /home/ubuntu/11111111
+    state: touch
